@@ -47,7 +47,7 @@ void main() {
   //using if_else conditional statement
   //leap year program
   var year = 1900;
-  if((year % 400 == 0) || (year % 100 != 0) && (year % 4 == 0)){
+  if((year % 400 == 0) || ((year % 100 != 0) && (year % 4 == 0))){
     print("$year is leap year.");
   } else {
     print("$year is not leap year.");
